@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QPushButton" name="startButton">
+                <property name="geometry">
+                    <rect>
+                        <x>320</x>
+                        <y>80</y>
+                        <width>100</width>
+                        <height>32</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>start</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="stopButton">
+                <property name="geometry">
+                    <rect>
+                        <x>310</x>
+                        <y>380</y>
+                        <width>100</width>
+                        <height>32</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>stop</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="clickButton">
+                <property name="geometry">
+                    <rect>
+                        <x>130</x>
+                        <y>190</y>
+                        <width>58</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>ok</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="timeLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>120</x>
+                        <y>250</y>
+                        <width>58</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>okk</string>
+                </property>
+            </widget>
+            <widget class="QFrame" name="frame">
+                <property name="geometry">
+                    <rect>
+                        <x>50</x>
+                        <y>50</y>
+                        <width>120</width>
+                        <height>80</height>
+                    </rect>
+                </property>
+                <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                </property>
+
+            </widget>
+            <widget class="QRadioButton" name="easyLevelButton">
+                <property name="geometry">
+                    <rect>
+                        <x>590</x>
+                        <y>100</y>
+                        <width>99</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Easy</string>
+                </property>
+            </widget>
+     </widget>
+       </widget>
+       <resources/>
+       <connections/>
+       <widget>
+      <customwidgets>
+       <customwidget>
+        <class>QBoard</class>
+        <extends>QWidget</extends>
+        <header>qboard.h</header>
+       </customwidget>
+      </customwidgets>
+      <resources/>
+      <connections/>
+     </ui>
